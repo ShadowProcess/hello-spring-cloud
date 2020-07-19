@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--表示该项目继承自那个项目-->
+    <parent>
+        <groupId>com.funtl</groupId>
+        <artifactId>hello-spring-cloud-dependencies</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <!--<relativePath>../hello-spring-cloud-dependencies/pom.xml</relativePath>-->
+    </parent>
+
+    <artifactId>hello-spring-cloud-service-admin</artifactId>
+    <packaging>jar</packaging>
+
+    <name>hello-spring-cloud-service-admin</name>
+    <url>http://www.funtl.com</url>
+    <inceptionYear>2019-now</inceptionYear>
+
+    <dependencies>
+        <!--spring boot begin-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!--spring boot end-->
+
+        <!--spring cloud begin-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+        <!--spring cloud end-->
+
+        <!--因为该服务需要被追踪，所以要添加改该依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+
+        <!--开启Spring Boot Admin客户端-->
+        <dependency>
+            <groupId>org.jolokia</groupId>
+            <artifactId>jolokia-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-starter-client</artifactId>
+        </dependency>
+
+    </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <!--
+                指向程序的入口，以前执行spring程序，直接run就行了，但现在是jar文件
+                jar怎么运行？  java -jar jar的名字
+                jar在运行时，你需要告诉它入口类
+                这个配置就是，让jar有一个默认的入口类，我们这里使用maven插件来做
+
+                如果不配置这一句，java -jar 是运行不了这个jar包的，它会报错
+                -->
+                <configuration>
+                    <mainClass>com.funtl.hello.spring.cloud.service.admin.ServiceAdminApplication</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

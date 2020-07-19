@@ -1,0 +1,36 @@
+server:
+  port: 8080
+
+#服务名
+spring:
+  application:
+    name: hello-spring-cloud-apigateway
+  cloud:
+    gateway:
+      filter:
+        remove-non-proxy-headers:
+          headers:
+            - dummy
+      routes:
+        - id:  apiuser
+          # 重点！/info必须使用http进行转发，lb代表从注册中心获取服务
+          uri: lb://user-service
+          predicates:
+            # 重点！转发该路径！,/userapi/**,
+            - Path=/userapi/**
+          # http://localhost:6601/userapi/user/users/2, 必须加上StripPrefix=1，否则访问服务时会带上userapi
+          #而不是我们期望的去掉userapi，只保留**部分
+          filters:
+            - StripPrefix=1
+        - id:  api2user
+          uri: lb://user-service
+          predicates:
+            - Path=/userapi2/**
+          filters:
+            - StripPrefix=1
+
+# 指定Eureka，可以指定多个，逗号分隔
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

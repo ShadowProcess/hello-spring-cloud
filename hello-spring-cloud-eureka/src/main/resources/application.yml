@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: hello-spring-cloud-eureka  #服务注册与发现，那么要找到这个服务啊，怎么找啊，可以根据应用程序的名字来找
+  #服务监控客户端配置
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+  #因为该服务需要被追踪，所以要开启追踪
+  zipkin:
+    base-url: http://localhost:9411
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost #eureka服务器地址，我们在本地做服务，所以配置localhost
+  client:
+    registerWithEureka: false  #指定是否要注册到注册中心（注册中心不需要开启）
+    fetchRegistry: false   #指定是否要从注册中心获取服务（注册中心不需要开启）
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

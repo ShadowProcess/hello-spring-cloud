@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: hello-spring-cloud-admin
+  zipkin:
+    base-url: http://localhost:9411
+
+server:
+  port: 8084
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: ["health","info"]
+
+eureka:
+  client:
+    serverUrl:
+      defaultZone: http://localhost:8761/eureka/

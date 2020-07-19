@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: hello-spring-cloud-config
+  cloud:
+    config:
+      label: master  #这是分支
+      server:
+        git:
+          uri: https://github.com/ShadowProcess/spring-cloud-config.git  #仓库地址
+          search-paths: respo  #配置文件在仓库中的目录
+          username: XXXXXX #git用户名
+          password: XXXXXX #git密码
+  #服务监控客户端配置
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+
+  #因为该服务需要被追踪，所以要开启追踪
+  zipkin:
+    base-url: http://localhost:9411
+
+server:
+  port: 8888
+  #spring config端口默认8888，不能改，如果你想修改，那么需要在resources目录下建一个bootstrap.properties
+
+eureka:
+  client:
+    serverUrl:
+      defaultZone: http://localhost:8761/eureka/  #服务的发现注册中心地址

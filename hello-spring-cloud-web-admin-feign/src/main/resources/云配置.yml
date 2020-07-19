@@ -1,0 +1,10 @@
+## 让Feign使用，云配置
+## 如果使用云配置，那么application.yml就可以删掉了，
+##  并把这个文件名修改为  application.yml
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888 # spring cloud配置中心地址
+      name: web-admin-feign  # 配置文件名
+      label: master # 分支
+      profile: dev # 激活那个配置 -dev

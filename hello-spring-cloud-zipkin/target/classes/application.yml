@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: hello-spring-cloud-zipkin
+  #服务监控客户端配置
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+
+server:
+  port: 9411  #zipkin默认端口9411
+
+eureka:
+  client:
+    serverUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+# 2.8版本是没有这段配置的，我们用的 2.10.1，它增加了这段配置
+management:
+  metrics:  #指标
+    web:
+      server:
+        auto-time-requests: false

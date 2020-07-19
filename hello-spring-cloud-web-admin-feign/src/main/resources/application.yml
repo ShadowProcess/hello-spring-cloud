@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: hello-spring-cloud-web-admin-feign
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+  #服务监控客户端配置
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+  #因为该服务需要被追踪，所以要开启追踪
+  zipkin:
+    base-url: http://localhost:9411
+
+server:
+  port: 8765
+
+eureka:
+  client:
+    serverUrl:
+      defaultZone: http://localhost:8761/eureka/  #服务的发现注册中心地址
+
+#开启Feign的熔断器，Feign已经集成了熔断器
+feign:
+  hystrix:
+    enabled: true

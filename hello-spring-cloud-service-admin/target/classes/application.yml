@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: hello-spring-cloud-service-admin  #服务注册与发现，那么要找到这个服务啊，怎么找啊，可以根据应用程序的名字来找
+  #服务监控客户端配置
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+  #因为该服务需要被追踪，所以要开启追踪
+  zipkin:
+    base-url: http://localhost:9411
+
+server:
+  port: 8762   #可以运行两个该程序，只需要把这个端口修改为8763,再启动一个该程序，上一个不要关闭,模拟负载均衡
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/  #该客户端需要知道,Eureka服务端地址,因为它要注册上去

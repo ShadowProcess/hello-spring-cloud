@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-apigateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-service-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-web-admin-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-zipkin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

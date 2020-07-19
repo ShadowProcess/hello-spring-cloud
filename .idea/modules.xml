@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/hello-spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/hello-spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-admin/hello-spring-cloud-admin.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-admin/hello-spring-cloud-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-apigateway/hello-spring-cloud-apigateway.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-apigateway/hello-spring-cloud-apigateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-config/hello-spring-cloud-config.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-config/hello-spring-cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-dependencies/hello-spring-cloud-dependencies.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-dependencies/hello-spring-cloud-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-eureka/hello-spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-eureka/hello-spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-service-admin/hello-spring-cloud-service-admin.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-service-admin/hello-spring-cloud-service-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/hello-spring-cloud-web-admin-feign.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/hello-spring-cloud-web-admin-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/hello-spring-cloud-web-admin-ribbon.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/hello-spring-cloud-web-admin-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-zipkin/hello-spring-cloud-zipkin.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-zipkin/hello-spring-cloud-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-zuul/hello-spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-zuul/hello-spring-cloud-zuul.iml" />
+    </modules>
+  </component>
+</project>

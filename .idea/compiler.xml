@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hello-spring-cloud-zipkin" />
+        <module name="hello-spring-cloud-web-admin-feign" />
+        <module name="hello-spring-cloud-eureka" />
+        <module name="hello-spring-cloud-zuul" />
+        <module name="hello-spring-cloud-service-admin" />
+        <module name="hello-spring-cloud-web-admin-ribbon" />
+        <module name="hello-spring-cloud-config" />
+        <module name="hello-spring-cloud-apigateway" />
+        <module name="hello-spring-cloud-admin" />
+        <module name="hello-redis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hello-redis" target="1.8" />
+      <module name="hello-spring-cloud-admin" target="1.8" />
+      <module name="hello-spring-cloud-apigateway" target="1.8" />
+      <module name="hello-spring-cloud-config" target="1.8" />
+      <module name="hello-spring-cloud-dependencies" target="1.8" />
+      <module name="hello-spring-cloud-eureka" target="1.8" />
+      <module name="hello-spring-cloud-service-admin" target="1.8" />
+      <module name="hello-spring-cloud-web-admin-feign" target="1.8" />
+      <module name="hello-spring-cloud-web-admin-ribbon" target="1.8" />
+      <module name="hello-spring-cloud-zipkin" target="1.8" />
+      <module name="hello-spring-cloud-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hello-redis" options="" />
+      <module name="hello-spring-cloud-admin" options="-parameters" />
+      <module name="hello-spring-cloud-apigateway" options="-parameters" />
+      <module name="hello-spring-cloud-config" options="-parameters" />
+      <module name="hello-spring-cloud-eureka" options="-parameters" />
+      <module name="hello-spring-cloud-service-admin" options="-parameters" />
+      <module name="hello-spring-cloud-web-admin-feign" options="-parameters" />
+      <module name="hello-spring-cloud-web-admin-ribbon" options="-parameters" />
+      <module name="hello-spring-cloud-zipkin" options="-parameters" />
+      <module name="hello-spring-cloud-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
