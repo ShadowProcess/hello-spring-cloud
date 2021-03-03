@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false" scan="true" scanPeriod="1 seconds">
+    <include resource="org/springframework/boot/logging/logback/base.xml" />
+    <!-- <jmxConfigurator/> -->
+    <contextName>logback</contextName>
+
+    <property name="log.path" value="\logs\logback.log" />
+
+    <property name="log.pattern"
+              value="%d{yyyy-MM-dd HH:mm:ss.SSS} -%5p ${PID} --- traceId:[%X{mdc_trace_id}] [%15.15t] %-40.40logger{39} : %m%n" />
+
+    <appender name="file"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log.path}</file>
+
+        <encoder>
+            <pattern>${log.pattern}</pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+
+            <fileNamePattern>info-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>10</maxHistory>
+        </rollingPolicy>
+
+    </appender>
+
+    <appender name="redis" class="com.cwbase.logback.RedisAppender">
+
+        <tags>test</tags>
+        <host>127.0.0.1</host><!--redis IP-->
+        <port>6379</port><!--redis端口-->
+        <key>test</key><!--redis队列名称-->
+        <!-- <mdc>true</mdc> -->
+        <callerStackIndex>0</callerStackIndex>
+        <location>true</location>
+
+        <additionalField>
+            <key>X-B3-ParentSpanId</key>
+            <value>@{X-B3-ParentSpanId}</value>
+        </additionalField>
+        <additionalField>
+            <key>X-B3-SpanId</key>
+            <value>@{X-B3-SpanId}</value>
+        </additionalField>
+        <additionalField>
+            <key>X-B3-TraceId</key>
+            <value>@{X-B3-TraceId}</value>
+        </additionalField>
+    </appender>
+
+    <root level="info">
+        <!-- <appender-ref ref="CONSOLE" /> -->
+        <!-- <appender-ref ref="file" /> -->
+        <!-- <appender-ref ref="UdpSocket" /> -->
+        <!-- <appender-ref ref="TcpSocket" /> -->
+        <appender-ref ref="redis" />
+    </root>
+
+    <!-- <logger name="com.example.logback" level="warn" /> -->
+
+</configuration>

@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ae580a13-6ae2-433a-9ab3-43da8343b83d" name="Default Changelist" comment="路由方式与路由id">
+      <change afterPath="$PROJECT_DIR$/Cloud组件.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud-eureka/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-apigateway/src/main/java/com/example/hellospringcloudgateway/HelloSpringCloudApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-apigateway/src/main/java/com/example/hellospringcloudgateway/HelloSpringCloudApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-eureka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-eureka/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +52,6 @@
     <expand />
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="hello-spring-cloud" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -36,19 +61,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1Vs2pAnKcqXpjb8o1wtVNjL19tV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -57,16 +79,18 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-config/studyconfig" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -84,7 +108,7 @@
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\hello-spring-cloud\hello-spring-cloud-web-admin-feign" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HelloSpringCloudGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaApplication">
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hello-spring-cloud-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.hello.spring.cloud.admin.AdminApplication" />
@@ -192,25 +216,13 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.EurekaApplication" />
         <item itemvalue="Spring Boot.ZuulApplication" />
+        <item itemvalue="Spring Boot.WebAdminRibbonApplication" />
         <item itemvalue="Spring Boot.WebAdminFeignApplication" />
         <item itemvalue="Spring Boot.ConfigApplication" />
-        <item itemvalue="Spring Boot.EurekaApplication" />
-        <item itemvalue="Spring Boot.WebAdminRibbonApplication" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SpringBeansView">
     <option name="showImplicitBeans" value="false" />
@@ -280,6 +292,14 @@
       <workItem from="1589765340774" duration="10000" />
       <workItem from="1590205541778" duration="9221000" />
       <workItem from="1590230121843" duration="1267000" />
+      <workItem from="1598003301407" duration="91000" />
+      <workItem from="1598416838456" duration="68000" />
+      <workItem from="1598530988394" duration="37000" />
+      <workItem from="1599710739744" duration="317000" />
+      <workItem from="1599712163412" duration="10823000" />
+      <workItem from="1599791204819" duration="5439000" />
+      <workItem from="1610612868156" duration="385000" />
+      <workItem from="1614742063378" duration="632000" />
     </task>
     <task id="LOCAL-00001" summary="-dev">
       <created>1578115496424</created>
@@ -439,7 +459,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -447,12 +467,23 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -475,94 +506,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="路由方式与路由id" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="179" key="#Project_Structure" timestamp="1586491660378">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="179" key="#Project_Structure/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586491660378" />
-    <state x="391" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590206338162">
+    <state x="468" y="144" width="729" height="536" key="find.popup" timestamp="1610612888932">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="391" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/-1440.-668.1440.860@0.0.1536.824" timestamp="1590206338162" />
-    <state x="224" y="5" key="CommitChangelistDialog2" timestamp="1590222978336">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="477" y="110" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586417659321" />
-    <state x="224" y="5" key="CommitChangelistDialog2/0.0.1536.824/-1440.-668.1440.860@0.0.1536.824" timestamp="1590222978336" />
-    <state x="257" y="5" key="CommitChangelistDialog2/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1589705803985" />
-    <state x="257" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587806357889" />
-    <state x="147" y="73" key="DiffContextDialog" timestamp="1590222977782">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="184" y="92" key="DiffContextDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586417658461" />
-    <state x="147" y="73" key="DiffContextDialog/0.0.1536.824/-1440.-668.1440.860@0.0.1536.824" timestamp="1590222977782" />
-    <state x="147" y="73" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1587806337720" />
-    <state x="638" y="228" key="FileChooserDialogImpl" timestamp="1588675806260">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="638" y="228" key="FileChooserDialogImpl/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1588675806260" />
-    <state width="1493" height="353" key="GridCell.Tab.0.bottom" timestamp="1590223091503">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="353" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.-668.1440.860@0.0.1536.824" timestamp="1590223091503" />
-    <state width="1493" height="353" key="GridCell.Tab.0.center" timestamp="1590223091503">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="353" key="GridCell.Tab.0.center/0.0.1536.824/-1440.-668.1440.860@0.0.1536.824" timestamp="1590223091503" />
-    <state width="1493" height="353" key="GridCell.Tab.0.left" timestamp="1590223091503">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="353" key="GridCell.Tab.0.left/0.0.1536.824/-1440.-668.1440.860@0.0.1536.824" timestamp="1590223091503" />
-    <state width="1493" height="353" key="GridCell.Tab.0.right" timestamp="1590223091503">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="353" key="GridCell.Tab.0.right/0.0.1536.824/-1440.-668.1440.860@0.0.1536.824" timestamp="1590223091503" />
-    <state width="1493" height="353" key="GridCell.Tab.1.bottom" timestamp="1590223091504">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="353" key="GridCell.Tab.1.bottom/0.0.1536.824/-1440.-668.1440.860@0.0.1536.824" timestamp="1590223091504" />
-    <state width="1493" height="353" key="GridCell.Tab.1.center" timestamp="1590223091503">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="353" key="GridCell.Tab.1.center/0.0.1536.824/-1440.-668.1440.860@0.0.1536.824" timestamp="1590223091503" />
-    <state width="1493" height="353" key="GridCell.Tab.1.left" timestamp="1590223091503">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="353" key="GridCell.Tab.1.left/0.0.1536.824/-1440.-668.1440.860@0.0.1536.824" timestamp="1590223091503" />
-    <state width="1493" height="353" key="GridCell.Tab.1.right" timestamp="1590223091504">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="353" key="GridCell.Tab.1.right/0.0.1536.824/-1440.-668.1440.860@0.0.1536.824" timestamp="1590223091504" />
-    <state x="270" y="55" key="SettingsEditor" timestamp="1590221733500">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="270" y="55" key="SettingsEditor/0.0.1536.824/-1440.-668.1440.860@0.0.1536.824" timestamp="1590221733500" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1590222818650">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1440.-668.1440.860@0.0.1536.824" timestamp="1590222818650" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1589705807738" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587806361872" />
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1589634792896">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="561" y="299" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586498707200" />
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1589634792896" />
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587461614809" />
-    <state x="447" y="145" width="803" height="534" key="find.popup" timestamp="1590222391512">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="447" y="145" width="803" height="534" key="find.popup/0.0.1536.824/-1440.-668.1440.860@0.0.1536.824" timestamp="1590222391512" />
-    <state x="267" y="175" key="new project wizard" timestamp="1590205594436">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="334" y="221" key="new project wizard/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586493982699" />
-    <state x="267" y="175" key="new project wizard/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1588675824885" />
-    <state x="267" y="175" key="new project wizard/0.0.1536.824/-1440.-668.1440.860@0.0.1536.824" timestamp="1590205594436" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1588070817587">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586498757283" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1588070817587" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587464274994" />
+    <state x="468" y="144" width="729" height="536" key="find.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1610612888932" />
   </component>
 </project>

@@ -1,3 +1,11 @@
+###配置sleuth生效
+logging:
+  level:
+    root: INFO
+    org.springframework.web.servlet.DispatcherServlet: DEBUG
+    org.springframework.cloud.sleuth: DEBUG
+
+
 spring:
   application:
     name: hello-spring-cloud-eureka  #服务注册与发现，那么要找到这个服务啊，怎么找啊，可以根据应用程序的名字来找

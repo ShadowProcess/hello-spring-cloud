@@ -1,3 +1,10 @@
+###配置sleuth生效
+logging:
+  level:
+    root: INFO
+    org.springframework.web.servlet.DispatcherServlet: DEBUG
+    org.springframework.cloud.sleuth: DEBUG
+
 spring:
   application:
     name: hello-spring-cloud-web-admin-ribbon

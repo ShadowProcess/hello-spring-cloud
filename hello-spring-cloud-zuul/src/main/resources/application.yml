@@ -1,3 +1,10 @@
+###配置sleuth生效
+logging:
+  level:
+    root: INFO
+    org.springframework.web.servlet.DispatcherServlet: DEBUG
+    org.springframework.cloud.sleuth: DEBUG
+
 spring:
   application:
     name: hello-spring-cloud-zuul
@@ -10,6 +17,13 @@ spring:
   #因为该服务需要被追踪，所以要开启追踪
   zipkin:
     base-url: http://localhost:9411
+    enabled: true
+    sender:
+      type: web
+#    sleuth:
+#      sampler:
+#        #抽样率，默认是0.1(10%),现在取100%，只为测试方便，生产环境勿设100%
+#        probability: 1.0
 
 server:
   port: 8769
@@ -28,7 +42,8 @@ zuul:
       path: /api/b/**
       serviceId: hello-spring-cloud-web-admin-ribbon
 
-#  其实在配置完这个配置文件后，其实zuul已经实现了反向代理和负载均衡的两个功能了，
-#  可能有人这时候就纳闷了，这里不是只是反向代理了吗？怎么实现负载均衡呢？
-#  其实zuul实现负载均衡很简单，使用serviceId进行绑定后，
-#  如果有多个相同的serviceid，则会进行轮询的方式进行访问。
+#  zuul 底层使用的是 ribbon 的负载组件, ribbon 可以从 eureka 获取服务列表,
+#  所以想要自定义负载, 得从 ribbon 入手, 查看并搜索 loadBalance 相关的类,
+#  可以看到 AbstractLoadBalancerRule 这个类, 查看类树, 可以看到顶级接口为 IRule
+
+## zuul可以自定义负载策略，需要继承ZoneAvoidanceRule,重写choose方法
