@@ -8,4 +8,4 @@ Spring Boot Admin有两个角色组成，一个是Spring Boot Admin Server
 一个是Spring Boot Admin Client
 
 使用方式：浏览器访问：http://localhost:8084
-11
+

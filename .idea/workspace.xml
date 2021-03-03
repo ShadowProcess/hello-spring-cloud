@@ -20,18 +20,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae580a13-6ae2-433a-9ab3-43da8343b83d" name="Default Changelist" comment="路由方式与路由id">
-      <change afterPath="$PROJECT_DIR$/Cloud组件.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-spring-cloud-eureka/src/main/resources/logback.xml" afterDir="false" />
+    <list default="true" id="ae580a13-6ae2-433a-9ab3-43da8343b83d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dubbo和SpringCloud区别.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dubbo和SpringCloud对比图.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dubbo和SpringCloud的通讯协议.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-eureka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-eureka/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-admin/Spring Boot Admin服务监控.md" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-admin/Spring Boot Admin服务监控.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/Feign增加熔断器.md" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/Feign增加熔断器.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,9 @@
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1Vs2pAnKcqXpjb8o1wtVNjL19tV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -94,18 +91,19 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DevelopmentSoftWare\workstation\hello-spring-cloud" />
+      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\hello-spring-cloud\spring-cloud-config\studyconfig" />
+      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\hello-spring-cloud\hello-spring-cloud-web-admin-feign\src\main\resources" />
+      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\hello-spring-cloud\spring-cloud-config\respo" />
+      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\hello-spring-cloud\hello-spring-cloud-web-admin-feign" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\hello-spring-cloud\hello-spring-cloud-zuul" />
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\hello-spring-cloud\spring-cloud-config\studyconfig" />
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\hello-spring-cloud\hello-spring-cloud-admin" />
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\hello-spring-cloud\hello-spring-cloud-zipkin" />
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\hello-spring-cloud\spring-cloud-config" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\hello-spring-cloud\spring-cloud-config\studyconfig" />
-      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\hello-spring-cloud\hello-spring-cloud-web-admin-feign\src\main\resources" />
-      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\hello-spring-cloud\spring-cloud-config\respo" />
-      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\hello-spring-cloud\hello-spring-cloud-web-admin-feign" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.EurekaApplication">
@@ -299,7 +297,7 @@
       <workItem from="1599712163412" duration="10823000" />
       <workItem from="1599791204819" duration="5439000" />
       <workItem from="1610612868156" duration="385000" />
-      <workItem from="1614742063378" duration="632000" />
+      <workItem from="1614742063378" duration="5678000" />
     </task>
     <task id="LOCAL-00001" summary="-dev">
       <created>1578115496424</created>
@@ -455,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590222814671</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="1.组件图">
+      <created>1614742705566</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1614742705566</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,9 +508,50 @@
     <MESSAGE value="增加bat脚本" />
     <MESSAGE value="cloud apiGateway" />
     <MESSAGE value="路由方式与路由id" />
-    <option name="LAST_COMMIT_MESSAGE" value="路由方式与路由id" />
+    <MESSAGE value="1.组件图" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.组件图" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1416" y="97" key="CommitChangelistDialog2" timestamp="1614742705044">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1416" y="97" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614742705044" />
+    <state width="1475" height="480" key="GridCell.Tab.0.bottom" timestamp="1614753173608">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1475" height="480" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614753173608" />
+    <state width="1475" height="480" key="GridCell.Tab.0.center" timestamp="1614753173608">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1475" height="480" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614753173608" />
+    <state width="1475" height="480" key="GridCell.Tab.0.left" timestamp="1614753173607">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1475" height="480" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614753173607" />
+    <state width="1475" height="480" key="GridCell.Tab.0.right" timestamp="1614753173608">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1475" height="480" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614753173608" />
+    <state width="1475" height="480" key="GridCell.Tab.1.bottom" timestamp="1614753173608">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1475" height="480" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614753173608" />
+    <state width="1475" height="480" key="GridCell.Tab.1.center" timestamp="1614753173608">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1475" height="480" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614753173608" />
+    <state width="1475" height="480" key="GridCell.Tab.1.left" timestamp="1614753173608">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1475" height="480" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614753173608" />
+    <state width="1475" height="480" key="GridCell.Tab.1.right" timestamp="1614753173608">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1475" height="480" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614753173608" />
+    <state x="-1190" y="248" key="Vcs.Push.Dialog.v2" timestamp="1614742709661">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1190" y="248" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614742709661" />
     <state x="468" y="144" width="729" height="536" key="find.popup" timestamp="1610612888932">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

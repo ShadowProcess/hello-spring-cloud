@@ -7,7 +7,7 @@
 
 为了解决这个问题，业界提出了熔断器模型
 
-Netflix开源了Hystrix(猬草属-heisizhuikesi)组件，实现了熔断器模式，
+Netflix开源了Hystrix(猬草属-heisichuikesi)组件，实现了熔断器模式，
 SpringCloud对这一组件进行了整合，在微服务架构中，一个请求需要调用多个服务是非常常见的
 
 
