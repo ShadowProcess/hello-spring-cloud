@@ -55,7 +55,7 @@ public class LoginFilter extends ZuulFilter {
     }
 
     /**
-     * 过滤器的具体业务代码
+     * 过滤器的具体业务代码(使用Zuul进行权限校验)
      * @return
      * @throws ZuulException
      */

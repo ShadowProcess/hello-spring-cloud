@@ -21,12 +21,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae580a13-6ae2-433a-9ab3-43da8343b83d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dubbo和SpringCloud区别.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dubbo和SpringCloud对比图.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dubbo和SpringCloud的通讯协议.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_marcosbarbero_cloud_spring_cloud_zuul_ratelimit_2_4_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_marcosbarbero_cloud_spring_cloud_zuul_ratelimit_core_2_4_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/java/com/funtl/hello/spring/cloud/web/admin/feign/requesheaderproblem/FeignHystrixConcurrencyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/java/com/funtl/hello/spring/cloud/web/admin/feign/requesheaderproblem/MyRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/java/com/funtl/hello/spring/cloud/zuul/ratelimit/RateLimitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/java/com/funtl/hello/spring/cloud/zuul/ratelimit/zuul-ratelimit限流组件.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-admin/Spring Boot Admin服务监控.md" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-admin/Spring Boot Admin服务监控.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/Feign增加熔断器.md" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/Feign增加熔断器.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/java/com/funtl/hello/spring/cloud/web/admin/feign/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/java/com/funtl/hello/spring/cloud/web/admin/feign/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-zuul/hello-spring-cloud-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/hello-spring-cloud-zuul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/java/com/funtl/hello/spring/cloud/zuul/ZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/java/com/funtl/hello/spring/cloud/zuul/ZuulApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/java/com/funtl/hello/spring/cloud/zuul/filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/java/com/funtl/hello/spring/cloud/zuul/filter/LoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +306,10 @@
       <workItem from="1599712163412" duration="10823000" />
       <workItem from="1599791204819" duration="5439000" />
       <workItem from="1610612868156" duration="385000" />
-      <workItem from="1614742063378" duration="5678000" />
+      <workItem from="1614742063378" duration="8065000" />
+      <workItem from="1614822925694" duration="12000" />
+      <workItem from="1614825207412" duration="2808000" />
+      <workItem from="1615190030355" duration="3793000" />
     </task>
     <task id="LOCAL-00001" summary="-dev">
       <created>1578115496424</created>
@@ -460,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614742705566</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="1.复习Springcloud">
+      <created>1614757909216</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1614757909216</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,13 +528,19 @@
     <MESSAGE value="cloud apiGateway" />
     <MESSAGE value="路由方式与路由id" />
     <MESSAGE value="1.组件图" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.组件图" />
+    <MESSAGE value="1.复习Springcloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.复习Springcloud" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1416" y="97" key="CommitChangelistDialog2" timestamp="1614742705044">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1614825519316">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1614825519316" />
+    <state x="292" y="0" key="CommitChangelistDialog2" timestamp="1614757908804">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1416" y="97" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614742705044" />
+    <state x="292" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1614757908804" />
     <state width="1475" height="480" key="GridCell.Tab.0.bottom" timestamp="1614753173608">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -548,13 +573,22 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1475" height="480" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614753173608" />
-    <state x="-1190" y="248" key="Vcs.Push.Dialog.v2" timestamp="1614742709661">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1190" y="248" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614742709661" />
-    <state x="468" y="144" width="729" height="536" key="find.popup" timestamp="1610612888932">
+    <state x="584" y="196" key="Vcs.Push.Dialog.v2" timestamp="1614757913383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="468" y="144" width="729" height="536" key="find.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1610612888932" />
+    <state x="-1190" y="248" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614742709661" />
+    <state x="584" y="196" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1614757913383" />
+    <state x="468" y="144" width="729" height="536" key="find.popup" timestamp="1614763689105">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="144" width="729" height="536" key="find.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1614763689105" />
+    <state x="242" y="108" key="new project wizard" timestamp="1614762991898">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="242" y="108" key="new project wizard/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1614762991898" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1614825350691">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1614825350691" />
   </component>
 </project>

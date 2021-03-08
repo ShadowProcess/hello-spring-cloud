@@ -41,6 +41,27 @@ zuul:
     api-b:
       path: /api/b/**
       serviceId: hello-spring-cloud-web-admin-ribbon
+  #限流配置---------------------------------------------------------
+  ratelimit:
+    key-prefix: springcloud #按粒度拆分的临时变量key的前缀
+    enabled: true  #启用开关
+    #repository: IN_MEMORY #key存储类型，默认是IN_MEMORY本地内存，必须大些
+    behind-proxy: true  #表示代理之后
+    default-policy:
+      limit: 2  #在一个单位时间内的请求数量
+      quota: 1  #在一个单位时间内的请求时间限制
+      refresh-interval: 3 #单位时间窗口
+      type:
+        - user   #可指定用户粒度
+        - origin #可指定客户端地址粒度
+        - url    #可指定 url 粒度
+    #我们增加了policies配置，含义是我们对 client-a 服务进行特殊限流配置，10秒内请求数量不得大于 5 次，这 5 次请求总时长不能大于 5秒，其他服务对限流策略还是按照 上面默认的，不冲突。
+    policies:
+      client-a:
+      limit: 5
+      quota: 5
+      efresh-interval: 10
+
 
 #  zuul 底层使用的是 ribbon 的负载组件, ribbon 可以从 eureka 获取服务列表,
 #  所以想要自定义负载, 得从 ribbon 入手, 查看并搜索 loadBalance 相关的类,

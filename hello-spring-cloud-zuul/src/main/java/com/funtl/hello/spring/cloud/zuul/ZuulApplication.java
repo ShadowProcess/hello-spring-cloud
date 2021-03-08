@@ -14,7 +14,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
  *  3. zuul2.x基于netty非阻塞、支持长连接，但Spring Cloud目前还没有整合。zuul2.x的性能较zuul1.x有较大提高。在性能方面，根据官网提供的基准测试，
  *     Spring Cloud Gateway的RPS（每秒请求数）是zuul的1.6倍
  *
- *  4. Spring Cloud Gateway 建立 在 Spring Framework 5、 Project Reactor 和 Spring Boot 2 之上， 使用 非 阻塞 API。
+ *  4. Spring Cloud Gateway 建立 在 Spring Framework 5、 Project Reactor 和 Spring Boot 2 之上， 使用 非阻塞 API。
  *
  *  5. Spring Cloud Gateway 还 支持 WebSocket， 并且 与 Spring紧密集成， 拥有更好的开发体验
  */
