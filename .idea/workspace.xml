@@ -20,10 +20,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae580a13-6ae2-433a-9ab3-43da8343b83d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/熔断器面试题.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ae580a13-6ae2-433a-9ab3-43da8343b83d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -300,6 +297,7 @@
       <workItem from="1615452744562" duration="10000" />
       <workItem from="1615889158344" duration="826000" />
       <workItem from="1615962279781" duration="128000" />
+      <workItem from="1615962414722" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="-dev">
       <created>1578115496424</created>
@@ -476,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615196975754</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="1.熔断器-多个线程池  指定百分比，达到百分比熔断">
+      <created>1615962445610</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1615962445610</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,18 +532,19 @@
     <MESSAGE value="1.组件图" />
     <MESSAGE value="1.复习Springcloud" />
     <MESSAGE value="1.限流" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.限流" />
+    <MESSAGE value="1.熔断器-多个线程池  指定百分比，达到百分比熔断" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.熔断器-多个线程池  指定百分比，达到百分比熔断" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1614825519316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1614825519316" />
-    <state x="286" y="0" key="CommitChangelistDialog2" timestamp="1615196975249">
+    <state x="286" y="0" key="CommitChangelistDialog2" timestamp="1615962445192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1416" y="97" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614742705044" />
-    <state x="286" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1615196975249" />
+    <state x="286" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1615962445192" />
     <state width="1475" height="480" key="GridCell.Tab.0.bottom" timestamp="1614753173608">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -571,11 +577,11 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1475" height="480" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614753173608" />
-    <state x="584" y="196" key="Vcs.Push.Dialog.v2" timestamp="1615197014683">
+    <state x="584" y="196" key="Vcs.Push.Dialog.v2" timestamp="1615962448928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1190" y="248" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614742709661" />
-    <state x="584" y="196" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1615197014683" />
+    <state x="584" y="196" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1615962448928" />
     <state x="468" y="144" width="729" height="536" key="find.popup" timestamp="1614763689105">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
